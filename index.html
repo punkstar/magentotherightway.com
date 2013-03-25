@@ -1,4 +1,11 @@
 ---
 layout: default
 ---
-Hello world!
+
+{% for post in site.posts reversed %}
+
+	<section>
+		{{ post.content }}
+	</section>
+
+{% endfor %}
