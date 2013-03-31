@@ -1,0 +1,62 @@
+body {
+	font-family: 'Droid Serif', serif;
+	max-width: 1000px;
+	margin: auto;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Bree Serif', serif;
+}
+
+h1 { font-size: 2em; line-height: 2em; }
+h2 { font-size: 1.7em; line-height: 1.7em; }
+h3 { font-size: 1.5em; line-height: 1.5em; }
+h4 { font-size: 1em; line-height: 1.em; }
+
+p, li { line-height: 2em; }
+
+pre, tt, code {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	line-height: 1.25em;
+}
+
+a {
+	text-decoration: none;
+	color:#F15E3E;
+	border-bottom: 1px dotted #F15E3E;
+}
+
+a[href="#top"]:before {
+	content: '\002191';
+	margin-right: 0.3em;
+}
+
+header {
+	text-align: center;
+	font-size: 1.5em;
+	margin: 2em;
+}
+
+nav, article {
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav {
+	width: 170px;
+}
+
+article {
+	width: 800px;
+}
+
+article li {
+	margin-left: 3em;
+	list-style: circle;
+}
+
+footer {
+	text-align: center;
+	margin: 1em;
+	font-size: 0.75em;
+}
