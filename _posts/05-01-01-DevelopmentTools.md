@@ -1,4 +1,7 @@
-## Development Tools
+---
+title: Development Tools
+permalink: development-tools
+---
 
 There are a number of tools that have emerged to make your life as a Magento Developer easier.
 

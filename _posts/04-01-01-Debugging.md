@@ -1,4 +1,7 @@
-## Debugging
+---
+title: Debugging
+permalink: debugging
+---
 
 ### The Varien_Object
 

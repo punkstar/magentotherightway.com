@@ -4,8 +4,24 @@ layout: default
 
 {% for post in site.posts reversed %}
 
+	<nav>
+		<ul>
+			<li><a href="#{{ post.permalink }}">{{ post.title }}</a></li>
+		</ul>
+	</nav>
+
+{% endfor %}
+
+{% for post in site.posts reversed %}
+
 	<section>
+		<h1 id="{{ post.permalink }}">{{ post.title }}</h1>
+
 		{{ post.content }}
+
+		<p>
+			<a href="#top">Back to top</a>
+		</p>
 	</section>
 
 {% endfor %}
