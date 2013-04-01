@@ -39,7 +39,7 @@ header {
 
 nav {
 	float: left;
-	width: 190px;
+	width: 210px;
 	padding: 0 1em;
 }
 
@@ -53,7 +53,7 @@ nav li.child a:before {
 }
 
 article {
-	margin-left: 200px;
+	margin-left: 230px;
 	padding: 0 1em;
 }
 
