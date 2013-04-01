@@ -23,11 +23,11 @@ layout: default
 
 			{{ post.content }}
 
-			{% unless post.isChild %}
+			{% if post.isChild %}
 			<p>
 				<a href="#">Back to top</a>
 			</p>
-			{% endunless %}
+			{% endif %}
 		</section>
 	{% endfor %}
 </article>
