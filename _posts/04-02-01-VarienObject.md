@@ -9,6 +9,7 @@ isChild: true
 You can inspect the contents of a `Varien_Object` with the following snippet:
 
 {% highlight php %}
+<?php
 foreach ($object->getData() as $key => $value) {
     if (is_object($value)) {
         printf("%s => (%s)\n", $key, get_class($value));

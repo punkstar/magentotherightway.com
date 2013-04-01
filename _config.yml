@@ -1,3 +1,4 @@
+pygments: true
 markdown: maruku
 maruku:
     use_tex:    false
