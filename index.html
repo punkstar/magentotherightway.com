@@ -5,7 +5,9 @@ layout: default
 <nav>
 	<ul>
 		{% for post in site.posts reversed %}
-					<li><a href="#{{ post.permalink }}">{{ post.title }}</a></li>
+			<li {% if post.isChild %}class="child"{% endif %}>
+				<a href="#{{ post.permalink }}">{{ post.title }}</a>
+			</li>
 		{% endfor %}
 	</ul>
 </nav>
@@ -13,13 +15,19 @@ layout: default
 <article>
 	{% for post in site.posts reversed %}
 		<section>
-			<h1 id="{{ post.permalink }}">{{ post.title }}</h1>
+			{% if post.isChild %}
+				<h2 id="{{ post.permalink }}">{{ post.title }}</h2>
+			{% else %}
+				<h1 id="{{ post.permalink }}">{{ post.title }}</h1>
+			{% endif %}
 
 			{{ post.content }}
 
+			{% unless post.isChild %}
 			<p>
 				<a href="#">Back to top</a>
 			</p>
+			{% endunless %}
 		</section>
 	{% endfor %}
 </article>

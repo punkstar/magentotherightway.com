@@ -27,7 +27,7 @@ a {
 }
 
 a[href="#top"]:before {
-	content: '\002191';
+	content: '\002191'; // &uarr;
 	margin-right: 0.3em;
 }
 
@@ -37,17 +37,23 @@ header {
 	margin: 2em;
 }
 
-nav, article {
-	display: inline-block;
-	vertical-align: top;
+nav {
+	float: left;
+	width: 190px;
 }
 
-nav {
-	width: 170px;
+nav li.child {
+	margin-left: 1em;
+}
+
+nav li.child a:before {
+	content: '\00BB'; // &raquo;
+	margin-right: 0.25em;
 }
 
 article {
-	width: 800px;
+	margin-left: 200px;
+	padding: 0 1em;
 }
 
 article li {
@@ -59,4 +65,5 @@ footer {
 	text-align: center;
 	margin: 1em;
 	font-size: 0.75em;
+	clear: both;
 }
