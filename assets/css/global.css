@@ -40,6 +40,7 @@ header {
 nav {
 	float: left;
 	width: 190px;
+	padding: 0 1em;
 }
 
 nav li.child {
@@ -66,4 +67,25 @@ footer {
 	margin: 1em;
 	font-size: 0.75em;
 	clear: both;
+}
+
+
+@media all and (max-width: 1000px) {
+	header {
+		font-size: 1.1em;
+	}
+
+	nav {
+		float: none;
+		width: auto;
+	}
+
+	article {
+		margin-left: 0;
+	}
+
+	article li {
+		margin-left: 1.2em;
+		list-style: circle;
+	}
 }
