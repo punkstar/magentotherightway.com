@@ -14,3 +14,5 @@ When building a Magento store, it is likely that you will have to add custom cod
 - Add independent/additional functionality
 
 These changes should be made in a modular fashion (loosely coupled and high cohesion) within the `local` code pool.
+
+**Do not edit the `core` code pool.**
