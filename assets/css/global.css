@@ -78,6 +78,13 @@ footer {
 	clear: both;
 }
 
+#contributors img {
+	width: 25px;
+}
+
+#contributors a {
+	border-bottom: 0;
+}
 
 @media all and (max-width: 1000px) {
 	header {
