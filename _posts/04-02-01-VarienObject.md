@@ -1,3 +1,4 @@
+*[WSOD]: White Screen Of Death
 ---
 title: The Varien_Object
 permalink: varien_object
