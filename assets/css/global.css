@@ -20,6 +20,11 @@ pre, tt, code {
 	line-height: 1.25em;
 }
 
+abbr {
+    border-bottom: 1px dotted black;
+    cursor: help;
+}
+
 a {
 	text-decoration: none;
 	color:#F15E3E;
