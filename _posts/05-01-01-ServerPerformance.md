@@ -11,5 +11,5 @@ There are few basic methods to speed up Magento installation, a number of which 
 * Remember to disable Xdebug on production servers.
 * Use [nginx](http://nginx.org/) + [php-fpm](http://php-fpm.org/) instead of [apache](https://httpd.apache.org/).
 * Ensure Magento cache is enabled in production environments. 
-* Enable merging CSS and JS files in Magento. You can use [Fooman Speedster](http://www.magentocommerce.com/magento-connect/fooman-speedster.html) for better results.
+* Enable merging CSS and JS files in Magento. You can use [Fooman Speedster Advanced](http://www.magentocommerce.com/magento-connect/fooman-speedster-advanced.html) for on-the-fly minification and intelligent combined file grouping.
 * Use Varnish for full page caching.
