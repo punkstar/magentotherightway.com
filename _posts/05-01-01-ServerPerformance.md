@@ -9,7 +9,7 @@ There are few basic methods to speed up Magento installation, a number of which 
 * For better application performance use PHP version >= 5.4. Here some [benchmarks](http://www.eschrade.com/page/magento-performance-on-php-5-3-5-4-and-5-5rc3/) and the latest [5.4 support patch](http://magento.com/blog/magento-news/magento-now-supports-php-54).
 * Install a [bytecode cache for PHP](http://www.phptherightway.com/#bytecode_cache) such as APC.
 * Remember to disable Xdebug on production servers.
-* Use nginx + php-fpm instead of Apache2.
+* Use [nginx](http://nginx.org/) + [php-fpm](http://php-fpm.org/) instead of [apache](https://httpd.apache.org/).
 * Remember to enable Magento cache on production environment. 
 * Enable merging CSS and JS files in Magento. You can use [Fooman Speedster](http://www.magentocommerce.com/magento-connect/fooman-speedster.html) for better results.
 * Use Varnish for full page caching.
