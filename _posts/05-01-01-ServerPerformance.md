@@ -3,7 +3,7 @@ title: Server/Performance
 permalink: server-performance
 ---
 
-There are few basic methods to speed up Magento installation. Few of them are described in official Magento [whitepaper](http://www.slideshare.net/quartsoft/optimizing-magento-for-peak-performance?ref=http://quartsoft.com/blog/201211/improving-performance-of-magento-store).
+There are few basic methods to speed up Magento installation, a number of which are described in an official Magento [whitepaper](http://www.slideshare.net/quartsoft/optimizing-magento-for-peak-performance?ref=http://quartsoft.com/blog/201211/improving-performance-of-magento-store) on the topic.
 
 * For database server use Percona instead of MySQL.
 * For better application performance use PHP version >= 5.4. Here some [benchmarks](http://www.eschrade.com/page/magento-performance-on-php-5-3-5-4-and-5-5rc3/).
