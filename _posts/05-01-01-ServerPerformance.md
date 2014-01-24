@@ -7,7 +7,7 @@ There are few basic methods to speed up Magento installation, a number of which 
 
 * For your database server use [Percona](http://www.percona.com/software/percona-server) instead of MySQL.
 * For better application performance use PHP version >= 5.4. Here some [benchmarks](http://www.eschrade.com/page/magento-performance-on-php-5-3-5-4-and-5-5rc3/) and the latest [5.4 support patch](http://magento.com/blog/magento-news/magento-now-supports-php-54).
-* Install some cache for PHP (apc, opcache).
+* Install a [bytecode cache for PHP](http://www.phptherightway.com/#bytecode_cache) such as APC.
 * Remember to disable Xdebug on production servers.
 * Use nginx + php-fpm instead of Apache2.
 * Remember to enable Magento cache on production environment. 
