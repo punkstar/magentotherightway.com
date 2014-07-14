@@ -9,4 +9,4 @@ isChild: true
 * Write to your own file, try to stick to the naming convention `$company_$extension_$specific.log`, e.g. `meanbee_shippingrules_requests.log`.
 * Add a "Debug Mode" toggle to your extension that forces logging, even if globally disabled.
 * eCommerce applications require traceability and the rapid tracking down of issues, so log anything that might make your life easier in the future.
-* There's nothing worse than an empty log file, although a log file full useless crap comes a close second.
+* There's nothing worse than an empty log file, although a log file full of useless crap comes a close second.
