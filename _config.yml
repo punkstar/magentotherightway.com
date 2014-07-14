@@ -1,5 +1,5 @@
 pygments: true
-markdown: maruku
+markdown: kramdown
 maruku:
     use_tex:    false
     use_divs:   false
