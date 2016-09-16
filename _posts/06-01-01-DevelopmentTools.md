@@ -7,6 +7,8 @@ There are a number of tools that have emerged to make your life as a Magento Dev
 
 * [modman](https://github.com/colinmollenhour/modman) - Magento Module Manager
 * [Ecomdev_PHPUnit](https://github.com/EcomDev/EcomDev_PHPUnit) - PHPUnit Integration
+* [BehatMage](https://github.com/MageTest/BehatMage) - Behat for Magento
+* [MageSpec](https://github.com/MageTest/MageSpec) - PHPSpec for Magento
 * [magerun](https://github.com/netz98/n98-magerun) - Magento Command Line Tools
 * [magetool](http://magetool.co.uk/) - Other magento command line tools.
 * [dac (Duplicate and Commit)](https://github.com/shawesome/dac) - Easier `base/default` Template Duplication for Git
