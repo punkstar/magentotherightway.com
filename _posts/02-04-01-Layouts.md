@@ -13,4 +13,4 @@ isChild: true
 	* Create your own layout file with a unique name following your module namespace, for example, `$companyname/$modulename.xml`
 	* Place your layout file (and its accompanying template files) in the `base/default` theme so that it may be accessed by all installed themes.
 
-* A reusable theme is, for all intents and purposes, an extension to Magento and should also not ship with a customised `local.xml`.
+* A reusable theme is, for all intents and purposes, an extension to Magento and should also not ship with a customised `local.xml` ([discussion](https://github.com/punkstar/magentotherightway.com/issues/4)).
