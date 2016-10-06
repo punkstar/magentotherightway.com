@@ -15,4 +15,4 @@ There are a number of tools that have emerged to make your life as a Magento Dev
 * [PHPCS](http://pear.php.net/package/PHP_CodeSniffer/) - PHP CodeSniffer. Keep your coding style consistent. Magento specific styles are from [Magento ECG](https://github.com/magento-ecg/coding-standard) and
   [made.com](https://github.com/madedotcom/phpcs-magento-rules)
 * [PhpStorm](http://www.jetbrains.com/phpstorm/) with the [Magicento](http://magicento.com/) plugin - PHPStorm is a full-fledged PHP IDE, and the Magicento plugin adds a lot of Magento-specific features.
-* [Wiz](https://github.com/classyllama/Wiz) is a CLI tool for configuring and listing settings from the command line, amoung other things.
+* [Wiz](https://github.com/classyllama/Wiz) is a CLI tool for configuring and listing settings from the command line, among other things.
